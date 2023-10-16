@@ -1,0 +1,287 @@
+/* Importing Lobster font from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+/* Importing Yanone Kaffeesatz from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400;700&display=swap");
+
+/* Default settings */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lobster", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  height: 100vh;
+  background-blend-mode: luminosity;
+}
+
+/* Reuse Properties */
+aside {
+  background-color: #84330b;
+  padding: 5vh 0;
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+.title,
+.sub-title {
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: calc(100vh - 220px);
+  font-size: 9rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/* header starts */
+.header-home {
+  background: url(../img/background-home.jpeg);
+  background-color: #501f0799;
+}
+
+.nav-bar {
+  padding-top: 20px;
+  height: 100px;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.nav-bar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-bar ul li a {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 2rem;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.nav-bar ul li a:hover {
+  color: #84330b;
+}
+
+.logo {
+  width: 130px;
+}
+
+/* header ends */
+
+/* about starts */
+.header-about {
+  background-image: url(../img/background-about.jpeg);
+  background-size: cover;
+  background-color: #501f0799;
+  height: 95vh; /* height: 95vh to show that we can scroll down to the content */
+}
+
+/* about starts */
+.about {
+  display: flex;
+  align-items: center;
+}
+
+.text-content {
+  padding: 0 40px;
+}
+
+.text-content p {
+  font-size: 1.8rem;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 10px;
+  letter-spacing: 0.1rem;
+}
+
+.img-content img {
+  max-width: 400px;
+}
+/* about ends */
+
+/* photos starts */
+.header-photos {
+  background-image: url(../img/background-photos.jpeg);
+  background-size: cover;
+  background-color: #501f0799;
+  height: 95vh; /* height: 95vh to show that we can scroll down to the content */
+}
+
+.photos {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(13, 5vw);
+  gap: 15px;
+}
+
+/* Setting the gallery properties starts */
+.gallery-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery-item-1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.gallery-item-2 {
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.gallery-item-3 {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 4;
+  grid-row-end: 8;
+}
+
+.gallery-item-4 {
+  grid-column-start: 6;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 8;
+}
+
+.gallery-item-5 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 8;
+  grid-row-end: 11;
+}
+
+.gallery-item-6 {
+  grid-column-start: 4;
+  grid-column-end: 9;
+  grid-row-start: 8;
+  grid-row-end: 14;
+}
+
+.gallery-item-7 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 11;
+  grid-row-end: 14;
+}
+
+/* Setting the gallery properties ends */
+
+/* photos ends */
+
+/* contact starts */
+.header-contact {
+  background-image: url("../img/background-contact.jpeg");
+  background-size: cover;
+}
+
+/* Styling the form starts */
+.form-contact {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 15px;
+  border-radius: 4px;
+  padding: 10px;
+  color: #fff;
+}
+
+.form-contact label {
+  font-size: 1.5rem;
+}
+
+.input-info {
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid #fff;
+  height: 30px;
+  color: #fff;
+  padding-left: 10px;
+  font-size: 1.2rem;
+}
+
+input[type="date"] {
+  display: block;
+  width: 200px;
+}
+
+.input-info:focus {
+  outline: none !important;
+}
+
+/* Styling checkbox services */
+.services-text {
+  padding-bottom: 10px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+}
+
+.services-grid div {
+  padding-bottom: 5px;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.submit-warning {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  width: 180px;
+  height: 40px;
+  cursor: pointer;
+  border: 1px solid #fff;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: transparent;
+}
+/* Styling the form ends */
+/* contact ends */
+
+/* footer starts */
+
+footer {
+  color: #fff;
+  background-color: #501f0799;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  grid-column: 2/3;
+}
+
+.social-media-icon {
+  width: 2.5rem;
+  padding-right: 0.5rem;
+}
