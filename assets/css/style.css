@@ -295,3 +295,34 @@ footer {
   width: 2.5rem;
   padding-right: 0.5rem;
 }
+
+/* Booking message style */
+.booking {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #501f05;
+}
+
+.booking img {
+  width: 200px;
+}
+
+.booking h1 {
+  color: #fff;
+  font-size: 5rem;
+  max-width: 1200px;
+  padding: 60px 0;
+}
+
+.booking-btn {
+  border: 2px solid #fff;
+  font-size: 1.8rem;
+  border-radius: 4px;
+  padding: 20px 65px;
+  color: #fff;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
