@@ -1,0 +1,212 @@
+/* Responsive */
+@media screen and (max-width: 1320px) {
+  /* About Us page */
+  .text-content p {
+    font-size: 1.5rem;
+  }
+
+  /* Photos page */
+  .photos {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(11, 5vw);
+  }
+  .gallery-item-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+  }
+  .gallery-item-2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 4;
+  }
+  .gallery-item-3 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 8;
+  }
+  .gallery-item-4 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 8;
+  }
+  .gallery-item-5 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 8;
+    grid-row-end: 11;
+  }
+  .gallery-item-6 {
+    grid-column-start: 3;
+    grid-column-end: 7;
+    grid-row-start: 8;
+    grid-row-end: 14;
+  }
+  .gallery-item-7 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 11;
+    grid-row-end: 14;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  /* About Us page */
+  .text-content p {
+    font-size: 1.3rem;
+  }
+  .img-content img {
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+  /* About Us page */
+  .text-content p {
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+  }
+  .img-content img {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  /* Reuse properties */
+  .title,
+  .sub-title {
+    font-size: 7rem;
+  }
+  /* Home page */
+  .logo {
+    width: 90px;
+  }
+  .nav-bar ul li a {
+    font-size: 1.6rem;
+  }
+
+  /* About Us page */
+  .img-content img {
+    display: none;
+  }
+  .text-content p {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  /* Reuse properties */
+  .title,
+  .sub-title {
+    font-size: 6rem;
+  }
+  /* Home page */
+  .logo {
+    width: 80px;
+  }
+  .nav-bar ul li a {
+    font-size: 1.4rem;
+  }
+
+  /* About Us page */
+  .text-content p {
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+  }
+
+  /* Photos page */
+  .photos {
+    display: block;
+  }
+  .gallery-img {
+    padding-bottom: 10px;
+  }
+  .gallery-item:nth-child(4),
+  .gallery-item:nth-child(5) {
+    height: 500px;
+  }
+
+  /* Contact page */
+  .form-contact {
+    display: block;
+  }
+  .form-info {
+    padding-top: 10px;
+  }
+  .services-text {
+    padding-top: 15px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  /* Reuse properties */
+  .title,
+  .sub-title {
+    font-size: 4.8rem;
+  }
+
+  /* Home page */
+  .nav-bar ul {
+    display: flex;
+  }
+  .nav-bar ul li a {
+    margin: 4px;
+    padding: 3px 10px;
+    font-size: 1.2rem;
+    position: relative;
+    left: 30px;
+  }
+  .nav-bar ul li:nth-child(3) {
+    order: -1;
+    position: relative;
+    right: 30px;
+  }
+
+  /* About Us page */
+  .text-content p {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+
+  /* Photos page */
+  .photos {
+    display: block;
+  }
+  .gallery-img {
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  /* Reuse properties */
+  .title,
+  .sub-title {
+    font-size: 3.8rem;
+  }
+
+  /* Home page */
+  .nav-bar ul li a {
+    margin: 4px;
+    padding: 3px 10px;
+    font-size: 1.1rem;
+    left: 10px;
+  }
+  .nav-bar ul li:nth-child(3) {
+    order: -1;
+    position: static;
+  }
+  .logo {
+    width: 60px;
+  }
+
+  /* About Us page */
+  .text-content p {
+    font-size: 0.8rem;
+    line-height: 0.9rem;
+  }
+}

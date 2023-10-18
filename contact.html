@@ -6,6 +6,8 @@
 
     <!-- Link to external CSS file -->
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
     <title>Turkuts Barber Shop</title>
   </head>
   <body>
@@ -39,7 +41,7 @@
     <aside>
       <section class="container contact">
         <form class="form-contact" action="form-sent.html" method="POST">
-          <div>
+          <div class="form-info">
             <label for="name">Name:</label>
             <input
               class="input-info"
@@ -49,7 +51,7 @@
               required
             />
           </div>
-          <div>
+          <div class="form-info">
             <label for="email">Email:</label>
             <input
               class="input-info"
@@ -59,7 +61,7 @@
               required
             />
           </div>
-          <div>
+          <div class="form-info">
             <label for="phone-number">Phone Number:</label>
             <input
               class="input-info"
@@ -69,7 +71,7 @@
               required
             />
           </div>
-          <div>
+          <div class="form-info">
             <label for="date">Date:</label>
             <input
               class="input-info"
@@ -80,8 +82,8 @@
             />
           </div>
 
+          <!-- Services -->
           <div>
-            <!-- Services -->
             <p class="services-text">
               Service(s) you are looking for:<strong>*</strong>
             </p>
@@ -138,7 +140,8 @@
 
             <!-- Services warning -->
             <span class="warning">
-              * Services that are not marked will not be done. Thank you.
+              * Services that are not marked will not be done. <br />
+              Thank you.
             </span>
           </div>
 
