@@ -22,6 +22,10 @@ ul {
 header {
   height: 100vh;
   background-blend-mode: luminosity;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Reuse Properties */
@@ -40,18 +44,19 @@ aside {
 .sub-title {
   color: #fff;
   align-items: center;
-  justify-content: center;
   display: flex;
-  height: calc(100vh - 220px);
   font-size: 9rem;
   text-align: center;
   text-transform: capitalize;
+  flex: 1;
 }
 
 /* header starts */
 .header-home {
   background: url(../img/background-home.jpeg);
   background-color: #501f0799;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .nav-bar {
@@ -89,8 +94,9 @@ aside {
 /* about starts */
 .header-about {
   background-image: url("../img/background-about.jpeg");
-  background-size: cover;
   background-color: #501f0799;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 95vh; /* height: 95vh to show that we can scroll down to the content */
 }
 
@@ -123,8 +129,9 @@ aside {
 /* photos starts */
 .header-photos {
   background-image: url(../img/background-photos.jpeg);
-  background-size: cover;
   background-color: #501f0799;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 95vh; /* height: 95vh to show that we can scroll down to the content */
 }
 
@@ -199,8 +206,9 @@ aside {
 /* contact starts */
 .header-contact {
   background-image: url("../img/background-contact.jpeg");
-  background-size: cover;
   background-color: #501f0799;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 95vh; /* height: 95vh to show that we can scroll down to the content */
 }
 
