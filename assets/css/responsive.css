@@ -73,6 +73,15 @@
   .img-content img {
     width: 300px;
   }
+
+  /* Contact page */
+  .services-options {
+    display: block;
+  }
+  .services-options label {
+    font-size: 1.2rem;
+    display: inline-block;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -96,6 +105,17 @@
   .text-content p {
     font-size: 1.3rem;
     line-height: 1.5rem;
+  }
+
+  /* Contact page */
+  .form-contact {
+    padding: 25px 25px;
+  }
+  .form-contact label {
+    font-size: 1.4rem;
+  }
+  .input-info {
+    font-size: 1rem;
   }
 }
 
@@ -134,12 +154,16 @@
   /* Contact page */
   .form-contact {
     display: block;
+    padding: 20px 20px;
   }
   .form-info {
     padding-top: 10px;
   }
   .services-text {
     padding-top: 15px;
+  }
+  .services-options {
+    padding-bottom: 10px;
   }
 }
 
@@ -149,8 +173,6 @@
   .sub-title {
     font-size: 4.8rem;
   }
-
-  /* Home page */
   .nav-bar ul {
     display: flex;
   }
@@ -188,8 +210,6 @@
   .sub-title {
     font-size: 3.8rem;
   }
-
-  /* Home page */
   .nav-bar ul li a {
     margin: 4px;
     padding: 3px 10px;
@@ -212,6 +232,21 @@
   .text-content p:nth-child(2) {
     display: none;
   }
+
+  /* Contact page */
+  .form-contact label {
+    font-size: 1.2rem;
+  }
+  .input-info {
+    font-size: 0.85rem;
+  }
+  .warning {
+    font-size: 0.85rem;
+  }
+  .social-media-icon {
+    width: 30px;
+    margin-top: 10px;
+  }
 }
 
 @media screen and (max-width: 360px) {
@@ -220,19 +255,22 @@
   .sub-title {
     font-size: 2.8rem;
   }
-
-  /* Home page */
-  .nav-bar ul {
-    display: flex;
-  }
   .nav-bar ul li a {
-    margin: 4px;
+    margin: 2px;
+    padding: 1px 5px;
     left: 0;
-    font-size: 0.85rem;
+    font-size: 1rem;
   }
   .logo {
     width: 40px;
   }
 
-  /* About Us page */
+  /* Contact page */
+  .form-contact {
+    padding: 10px 10px;
+    border: 1px solid #fff;
+  }
+  .services-options label {
+    font-size: 1rem;
+  }
 }
