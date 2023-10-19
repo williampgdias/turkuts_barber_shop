@@ -207,12 +207,12 @@ aside {
 .form-contact {
   color: #fff;
   display: grid;
-  grid-template-columns: repeat(2, 400px);
+  grid-template-columns: repeat(2, 1fr);
   gap: 15px;
   justify-content: center;
   border: 4px solid #fff;
   border-radius: 8px;
-  padding: 50px 0;
+  padding: 50px 50px;
   width: 70%;
   margin: auto;
 }
@@ -223,7 +223,7 @@ aside {
 
 .input-info {
   display: block;
-  width: 300px;
+  width: 100%;
   background-color: transparent;
   border: 1px solid #fff;
   border-radius: 4px;
@@ -259,22 +259,18 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
   padding-bottom: 10px;
 }
 
-.services-grid {
+.services-options {
   display: grid;
-  grid-template-columns: repeat(2, 200px);
+  grid-template-columns: repeat(1, auto) repeat(1, auto);
   font-weight: 300;
 }
 
-.services-grid div {
-  padding-bottom: 5px;
+.services-options div {
+  margin: 3px;
 }
 
-.services-grid label {
+.services-options label {
   font-size: 1.2rem;
-}
-
-input[type="checkbox"] {
-  margin-right: 5px;
 }
 
 .submit-warning {
@@ -285,7 +281,6 @@ input[type="checkbox"] {
 
 /* Styling the button form */
 button {
-  width: 300px;
   height: 40px;
   cursor: pointer;
   border: 1px solid #fff;
