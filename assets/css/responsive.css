@@ -210,3 +210,24 @@
     line-height: 0.9rem;
   }
 }
+
+@media screen and (max-width: 360px) {
+  /* Reuse properties */
+  .title,
+  .sub-title {
+    font-size: 2.8rem;
+  }
+
+  /* Home page */
+  .nav-bar ul {
+    display: flex;
+  }
+  .nav-bar ul li a {
+    margin: 4px;
+    left: 0;
+    font-size: 0.85rem;
+  }
+  .logo {
+    width: 40px;
+  }
+}
