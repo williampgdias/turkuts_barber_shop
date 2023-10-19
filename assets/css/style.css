@@ -73,6 +73,7 @@ aside {
   font-size: 2rem;
   color: #fff;
   text-transform: capitalize;
+  transition: color 400ms;
 }
 
 .nav-bar ul li a:hover {
@@ -288,7 +289,7 @@ button {
   border-radius: 4px;
   color: #fff;
   background-color: transparent;
-  transition: font-size 300ms;
+  transition: font-size 400ms;
 }
 
 button:hover {
@@ -302,7 +303,7 @@ button:hover {
 
 footer {
   color: #fff;
-  background-color: #501f0799;
+  background-color: #1c1b1ce0;
   padding: 20px;
   text-align: center;
 }
@@ -326,7 +327,7 @@ footer {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: #501f05;
+  background-color: #84330b;
 }
 
 .booking img {
@@ -337,14 +338,21 @@ footer {
   color: #fff;
   font-size: 5rem;
   max-width: 1200px;
-  padding: 60px 0;
+  padding: 60px 30px;
 }
 
-.booking-btn {
-  border: 2px solid #fff;
-  font-size: 1.8rem;
-  border-radius: 4px;
-  padding: 20px 65px;
-  color: #fff;
+.booking-btn a {
   font-family: "Yanone Kaffeesatz", sans-serif;
+  border: 3px solid #fff;
+  color: #fff;
+  padding: 25px 65px;
+  border-radius: 4px;
+
+  font-size: 1.8rem;
+  transition: border-color 400ms, color 400ms;
+}
+
+.booking-btn a:hover {
+  color: #1c1b1ce0;
+  border-color: #1c1b1ce0;
 }
