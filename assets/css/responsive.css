@@ -209,6 +209,9 @@
     font-size: 0.8rem;
     line-height: 0.9rem;
   }
+  .text-content p:nth-child(2) {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 360px) {
@@ -230,4 +233,6 @@
   .logo {
     width: 40px;
   }
+
+  /* About Us page */
 }
