@@ -70,26 +70,36 @@
         <!-- Phone number -->
         <div class="contact-info-div">
           <div class="contact-info">
-            <span class="material-symbols-outlined"> call </span>
+            <span class="material-symbols-outlined" aria-label="telephone icon">
+              call
+            </span>
             <p>01 632 9950</p>
           </div>
 
           <!-- Email -->
           <div class="contact-info">
-            <span class="material-symbols-outlined"> email </span>
+            <span class="material-symbols-outlined" aria-label="letter icon">
+              email
+            </span>
             <p>turkuts_barber_shop@gmail.com</p>
           </div>
 
           <!-- Location -->
           <div class="contact-info">
-            <span class="material-symbols-outlined"> map </span>
+            <span class="material-symbols-outlined" aria-label="map icon">
+              map
+            </span>
             <p>2 Rafter St, Templeshannon, Enniscorthy, Co. Wexford</p>
           </div>
         </div>
         <!-- Contact number ends -->
         <!-- Bookings start -->
         <div>
-          <form class="form-contact" action="form-sent.html">
+          <form
+            class="form-contact"
+            action="https://formdump.codeinstitute.net/"
+            method="POST"
+          >
             <div class="form-info">
               <input
                 placeholder="Name"
@@ -130,13 +140,18 @@
               />
             </div>
 
-            <div class="text-area">
-              <textarea placeholder="How can we help you?"></textarea>
+            <div class="form-info">
+              <textarea
+                name="message"
+                id="message"
+                placeholder="How can we help you?"
+                required
+              ></textarea>
             </div>
 
-            <div class="submit-warning">
-              <!-- Button to send the form -->
-              <button type="submit">Submit</button>
+            <!-- Button to send the form -->
+            <div>
+              <button class="form-btn" type="submit">Submit</button>
             </div>
           </form>
         </div>

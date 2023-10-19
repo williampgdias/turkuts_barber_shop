@@ -213,21 +213,25 @@ aside {
   height: 95vh; /* height: 95vh to show that we can scroll down to the content */
 }
 
+/* Full div */
 .contact {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  gap: 10px;
 }
 
+/* first part of the div (Texts) */
 .contact-options {
   grid-column: 1/3;
   margin: auto;
+  padding: 0 40px;
+  padding-bottom: 15px;
 }
 
 .contact-options ol li {
   font-size: 1.4rem;
   line-height: 1.8rem;
+  font-weight: 300;
 }
 
 .contact-options span {
@@ -240,16 +244,20 @@ aside {
   font-size: 2rem;
 }
 
+/* Location, Number and Email address */
 .contact-info-div {
   order: 3;
+  padding-right: 20px;
 }
 
+/* Individual Info start */
 .contact-info {
   display: flex;
   align-items: center;
   font-size: 1.8rem;
   font-weight: 300;
   padding-left: 30px;
+  margin-top: 10px;
 }
 
 .contact-info p {
@@ -260,30 +268,25 @@ aside {
   font-size: 2.4rem !important;
   font-weight: 100 !important;
 }
+/* Individual Info ends */
 
 /* Styling the form starts */
 .form-contact {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  flex-direction: column;
   gap: 15px;
-  border-radius: 8px;
-  padding: 30px 30px;
-}
-
-.form-contact label {
-  font-size: 1.5rem;
+  padding: 0px 20px;
+  margin: auto;
 }
 
 .input-info {
-  display: block;
   width: 100%;
   background-color: transparent;
   border: none;
   border-bottom: 1px solid #fff;
-  height: 60px;
+  height: 50px;
   color: #fff;
   padding-left: 10px;
-  margin-top: 5px;
   font-size: 1.3rem;
   font-family: "Yanone Kaffeesatz", sans-serif;
 }
@@ -293,11 +296,16 @@ textarea::placeholder {
   color: #fff;
 }
 
+.input-info:focus,
+textarea:focus {
+  outline: none !important;
+}
+
 input[type="date"] {
   display: block;
 }
 
-/*  */
+/* Calendar Icon starts */
 input[type="date"]::-webkit-calendar-picker-indicator {
   cursor: pointer;
   margin-right: 2px;
@@ -308,16 +316,13 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 input[type="date"]::-webkit-calendar-picker-indicator:hover {
   opacity: 1;
 }
+/* Calendar Icon ends */
 
-.input-info:focus,
-textarea:focus {
-  outline: none !important;
-}
-
-/* Styling textarea */
+/* textarea starts */
 
 textarea {
   display: block;
+  resize: vertical;
   width: 100%;
   background-color: transparent;
   border: none;
@@ -329,26 +334,22 @@ textarea {
   font-family: "Yanone Kaffeesatz", sans-serif;
 }
 
-.submit-warning {
-  display: flex;
-  flex-direction: column;
-  font-weight: 300;
-}
+/* textarea starts */
 
 /* Styling the button form */
-button {
+.form-btn {
   height: 40px;
   cursor: pointer;
   border: 1px solid #fff;
-  margin-bottom: 10px;
+  width: 150px;
   border-radius: 4px;
   color: #fff;
   background-color: transparent;
   transition: font-size 400ms;
 }
 
-button:hover {
-  font-size: 1.1rem;
+.form-btn:hover {
+  font-size: 1rem;
 }
 
 /* Styling the form ends */
@@ -372,42 +373,4 @@ footer {
 .social-media-icon {
   width: 2.5rem;
   margin-right: 15px;
-}
-
-/* Booking message style */
-.booking {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  background-color: #84330b;
-}
-
-.booking img {
-  width: 200px;
-}
-
-.booking h1 {
-  color: #fff;
-  font-size: 5rem;
-  max-width: 1200px;
-  padding: 60px 30px;
-}
-
-.booking-btn a {
-  font-family: "Yanone Kaffeesatz", sans-serif;
-  border: 3px solid #fff;
-  color: #fff;
-  padding: 25px 65px;
-  border-radius: 4px;
-
-  font-size: 1.8rem;
-  transition: border-color 400ms, color 400ms;
-}
-
-.booking-btn a:hover {
-  color: #1c1b1ce0;
-  border-color: #1c1b1ce0;
 }

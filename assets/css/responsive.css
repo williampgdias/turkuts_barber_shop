@@ -62,6 +62,17 @@
   .img-content img {
     width: 320px;
   }
+
+  /* Contact page */
+  .contact-options ol li {
+    font-size: 1.2rem;
+  }
+  .contact-info {
+    font-size: 1.4rem;
+  }
+  .material-symbols-outlined {
+    font-size: 2rem !important;
+  }
 }
 
 @media screen and (max-width: 1090px) {
@@ -72,15 +83,6 @@
   }
   .img-content img {
     width: 300px;
-  }
-
-  /* Contact page */
-  .services-options {
-    display: block;
-  }
-  .services-options label {
-    font-size: 1.2rem;
-    display: inline-block;
   }
 }
 
@@ -108,30 +110,13 @@
   }
 
   /* Contact page */
-  .form-contact {
-    padding: 25px 25px;
-  }
-  .form-contact label {
-    font-size: 1.4rem;
-  }
-  .input-info {
-    font-size: 1rem;
-  }
-
-  /* Form-sent page */
-  .booking img {
-    width: 150px;
-  }
-  .booking h1 {
-    font-size: 4rem;
-  }
-  .booking-btn a {
-    padding: 15px 60px;
-    font-size: 1.5rem;
+  .input-info,
+  textarea::placeholder {
+    font-size: 1.2rem;
   }
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 681px) {
   /* Reuse properties */
   .title,
   .sub-title {
@@ -164,26 +149,23 @@
   }
 
   /* Contact page */
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
   .form-contact {
     display: block;
-    padding: 20px 20px;
+    width: 400px;
   }
   .form-info {
     padding-top: 10px;
   }
-  .services-text {
-    padding-top: 15px;
+  .form-btn {
+    margin-top: 15px;
   }
-  .services-options {
-    padding-bottom: 10px;
-  }
-
-  /* Form-sent page */
-  .booking img {
-    width: 130px;
-  }
-  .booking h1 {
-    font-size: 3rem;
+  .contact-info:first-child {
+    padding-top: 35px;
   }
 }
 
@@ -223,12 +205,12 @@
     padding-bottom: 10px;
   }
 
-  /* Form-sent page */
-  .booking img {
-    width: 130px;
+  /* Contact page */
+  .contact-options p {
+    font-size: 1.5rem;
   }
-  .booking h1 {
-    font-size: 2.6rem;
+  .contact-options ol li {
+    font-size: 1.1rem;
   }
 }
 
@@ -262,26 +244,8 @@
   }
 
   /* Contact page */
-  .form-contact label {
-    font-size: 1.2rem;
-  }
-  .input-info {
-    font-size: 0.85rem;
-  }
-  .warning {
-    font-size: 0.85rem;
-  }
-  .social-media-icon {
-    width: 30px;
-    margin-top: 10px;
-  }
-
-  /* Form-sent page */
-  .booking img {
-    width: 130px;
-  }
-  .booking h1 {
-    font-size: 2.3rem;
+  .form-contact {
+    width: 100%;
   }
 }
 
@@ -302,20 +266,11 @@
   }
 
   /* Contact page */
-  .form-contact {
-    padding: 10px 10px;
-    border: 1px solid #fff;
+  .contact-info {
+    font-size: 1.1rem;
   }
-  .services-options label {
-    font-size: 1rem;
-  }
-
-  /* Form-sent page */
-  .booking img {
-    width: 80px;
-  }
-  .booking h1 {
-    padding-top: 30px;
-    font-size: 1.7rem;
+  .material-symbols-outlined {
+    font-size: 1.7rem !important;
+    font-weight: 100 !important;
   }
 }
