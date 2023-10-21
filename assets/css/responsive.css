@@ -81,8 +81,22 @@
     font-size: 1.2rem;
     line-height: 1.3rem;
   }
-  .img-content img {
-    width: 300px;
+  .opening-hours-heading .sub-title {
+    font-size: 2.8rem;
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+  .opening-hours {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .hours-box p {
+    top: 0;
+    right: 10px;
+  }
+  .hours-box p,
+  .hours-box span {
+    font-size: 2rem;
   }
 }
 
@@ -101,12 +115,13 @@
   }
 
   /* About Us page */
-  .img-content img {
-    display: none;
-  }
   .text-content p {
     font-size: 1.3rem;
     line-height: 1.5rem;
+  }
+  .hours-box p,
+  .hours-box span {
+    font-size: 1.6rem;
   }
 
   /* Contact page */
@@ -127,13 +142,26 @@
     width: 80px;
   }
   .nav-bar ul li a {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    margin: 5px;
   }
 
   /* About Us page */
+  .text-content h1 {
+    font-size: 2.6rem;
+  }
+
   .text-content p {
     font-size: 1.1rem;
-    line-height: 1.4rem;
+  }
+  .opening-hours-heading .sub-title {
+    font-size: 2.6rem;
+    padding-top: 45px;
+    padding-bottom: 40px;
+  }
+  .hours-box p,
+  .hours-box span {
+    font-size: 1.4rem;
   }
 
   /* Photos page */
@@ -182,8 +210,6 @@
     margin: 4px;
     padding: 3px 10px;
     font-size: 1.2rem;
-    position: relative;
-    left: 30px;
   }
   .nav-bar ul li:nth-child(3) {
     order: -1;
@@ -192,9 +218,28 @@
   }
 
   /* About Us page */
+  .text-content h1 {
+    font-size: 2.5rem;
+  }
   .text-content p {
     font-size: 1rem;
-    line-height: 1rem;
+    line-height: 1.2rem;
+  }
+  .opening-hours {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .hours-box {
+    height: 250px;
+  }
+  .monday,
+  .bank-holiday {
+    height: 100px;
+  }
+  .monday .hours-box,
+  .bank-holiday .hours-box {
+    height: 100%;
   }
 
   /* Photos page */
@@ -222,22 +267,23 @@
   }
   .nav-bar ul li a {
     margin: 4px;
-    padding: 3px 10px;
+    padding: 3px 6px;
     font-size: 1.1rem;
-    left: 10px;
   }
   .nav-bar ul li:nth-child(3) {
     order: -1;
     position: static;
   }
   .logo {
-    width: 60px;
+    width: 50px;
   }
 
   /* About Us page */
+  .text-content h1 {
+    font-size: 2.3rem;
+  }
   .text-content p {
-    font-size: 0.8rem;
-    line-height: 0.9rem;
+    font-size: 0.9rem;
   }
   .text-content p:nth-child(2) {
     display: none;
@@ -263,6 +309,26 @@
   }
   .logo {
     width: 40px;
+  }
+
+  /* About Us page */
+  .opening-hours-heading .sub-title {
+    font-size: 2.3rem;
+  }
+  .hours-box {
+    height: 200px;
+  }
+  .bank-holiday .hours-box p,
+  .bank-holiday .hours-box span {
+    font-size: 1rem;
+  }
+  .monday,
+  .bank-holiday {
+    height: 50px;
+  }
+  .monday .hours-box,
+  .bank-holiday .hours-box {
+    height: 100%;
   }
 
   /* Contact page */

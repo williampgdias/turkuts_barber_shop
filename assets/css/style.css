@@ -1,7 +1,5 @@
-/* Importing Lobster font from Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
-/* Importing Yanone Kaffeesatz from Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400;700&display=swap");
+/* Importing Playfair and Playfair Display font from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Playfair:opsz,wght@5..1200,300;5..1200,400;5..1200,700&display=swap");
 
 /* Default settings */
 * {
@@ -12,7 +10,7 @@
 }
 
 body {
-  font-family: "Lobster", sans-serif;
+  font-family: "Playfair Display", sans-serif;
   color: #fff;
 }
 
@@ -38,7 +36,7 @@ aside {
 .container {
   max-width: 1440px;
   margin: auto;
-  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-family: "Playfair", sans-serif;
 }
 
 .title,
@@ -101,30 +99,165 @@ aside {
   height: 95vh; /* height: 95vh to show that we can scroll down to the content */
 }
 
-/* about starts */
-.about {
-  display: flex;
-  align-items: center;
+.text-content {
+  padding: 0 20px;
+  border-left: 2px solid #fff;
+  margin-left: 20px;
 }
 
-.text-content {
-  padding: 0 40px;
+.text-content h1 {
+  font-size: 3rem;
+  padding-bottom: 10px;
 }
 
 .text-content p {
-  font-size: 1.8rem;
-  line-height: 1.7rem;
+  font-size: 1.5rem;
   font-weight: 300;
   color: #fff;
-  text-align: center;
   padding-bottom: 10px;
-  letter-spacing: 0.1rem;
 }
 
 .img-content img {
   max-width: 400px;
   padding-right: 50px;
 }
+
+/* Opening Hours starts */
+.opening-hours-heading .sub-title {
+  display: block;
+  font-size: 3rem;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.opening-hours {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(16, 3.5vw);
+  align-items: center;
+  justify-content: center;
+  padding: 20px 50px;
+  gap: 10px;
+}
+
+.hours-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  position: relative;
+  opacity: 0.3;
+  cursor: pointer;
+  transition: opacity 300ms;
+}
+
+.hours-box:hover {
+  opacity: 1;
+}
+
+.hours-box p {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 2.4rem;
+  text-transform: capitalize;
+}
+
+.hours-box span {
+  font-size: 2.4rem;
+}
+
+.monday {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  height: 100%;
+  border: 1px solid #0000001b;
+  border-radius: 4px;
+  background-color: #00000041;
+}
+
+.tuesday {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 7;
+  height: 100%;
+  border-radius: 4px;
+  background-image: url(/assets/img/photo-about-hour-1.jpeg);
+  background-size: cover;
+}
+
+.wednesday {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 7;
+  grid-row-end: 11;
+  height: 100%;
+  border-radius: 4px;
+  background-image: url(/assets/img/photo-about-hour-2.jpeg);
+  background-size: cover;
+}
+
+.thursday {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 8;
+  height: 100%;
+  border-radius: 4px;
+  background-image: url(/assets/img/photo-about-hour-3.jpeg);
+  background-size: cover;
+}
+
+.friday {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 8;
+  grid-row-end: 12;
+  height: 100%;
+  border-radius: 4px;
+  background-image: url(/assets/img/photo-about-hour-4.jpeg);
+  background-size: cover;
+}
+
+.saturday {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 11;
+  grid-row-end: 15;
+  height: 100%;
+  border-radius: 4px;
+  background-image: url(/assets/img/photo-about-hour-6.jpeg);
+  background-size: cover;
+}
+
+.sunday {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 12;
+  grid-row-end: 15;
+  height: 100%;
+  border-radius: 4px;
+  background-image: url(/assets/img/photo-about-hour-5.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bank-holiday {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 15;
+  grid-row-end: 17;
+  height: 100%;
+  border: 1px solid #0000001b;
+  border-radius: 4px;
+  background-color: #00000041;
+}
+/* Opening Hours ends */
+
 /* about ends */
 
 /* photos starts */
@@ -258,6 +391,7 @@ aside {
   font-weight: 300;
   padding-left: 30px;
   margin-top: 10px;
+  font-family: "Playfair", sans-serif;
 }
 
 .contact-info p {
@@ -288,7 +422,7 @@ aside {
   color: #fff;
   padding-left: 10px;
   font-size: 1.3rem;
-  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-family: "Playfair", sans-serif;
 }
 
 .input-info::placeholder,
@@ -331,7 +465,7 @@ textarea {
   padding-left: 10px;
   margin-top: 5px;
   font-size: 1.3rem;
-  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-family: "Playfair", sans-serif;
 }
 
 /* textarea starts */
