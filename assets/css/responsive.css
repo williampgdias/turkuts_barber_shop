@@ -98,6 +98,21 @@
   .hours-box span {
     font-size: 2rem;
   }
+
+  /* footer */
+  .phone-number {
+    font-size: 1.6rem;
+  }
+  .phone-number a {
+    font-size: 1.8rem;
+  }
+  .social-media h4 {
+    font-size: 1.6rem;
+  }
+  .social-media-icon {
+    width: 2.3rem;
+    margin-right: 10px;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -197,6 +212,24 @@
   }
   .contact-info:first-child {
     padding-top: 35px;
+  }
+
+  /* footer */
+  footer .container {
+    gap: 50px;
+  }
+  .phone-number {
+    font-size: 1.3rem;
+  }
+  .phone-number a {
+    font-size: 1.5rem;
+  }
+  .social-media h4 {
+    font-size: 1.3rem;
+  }
+  .social-media-icon {
+    width: 2rem;
+    margin-right: 10px;
   }
 }
 
@@ -345,5 +378,26 @@
   .material-symbols-outlined {
     font-size: 1.7rem !important;
     font-weight: 100 !important;
+  }
+
+  /* footer */
+  footer .container {
+    gap: 30px;
+  }
+  .phone-number {
+    font-size: 1rem;
+  }
+  .phone-number a {
+    font-size: 1.2rem;
+  }
+  .social-media h4 {
+    font-size: 1rem;
+  }
+  .social-media-icon {
+    width: 1.7rem;
+    margin-right: 10px;
+  }
+  .copyright {
+    font-size: 0.85rem;
   }
 }

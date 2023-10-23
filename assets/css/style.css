@@ -494,17 +494,53 @@ textarea {
 footer {
   color: #fff;
   background-color: #1c1b1ce0;
-  padding: 20px;
+}
+
+footer .container {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.phone-number {
   text-align: center;
+  font-size: 1.8rem;
+}
+
+.phone-number a {
+  font-size: 2rem;
+}
+
+.phone-number a {
+  color: #fff;
 }
 
 .social-media {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  grid-column: 2/3;
+}
+
+.social-media h4 {
+  font-size: 1.8rem;
+}
+
+.social-media-icon-div {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
 }
 
 .social-media-icon {
   width: 2.5rem;
   margin-right: 15px;
 }
+
+.copyright {
+  text-align: center;
+  padding: 30px 20px 20px 20px;
+}
+
+/* footer ends */
