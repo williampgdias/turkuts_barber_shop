@@ -52,7 +52,7 @@ aside {
 
 /* header starts */
 .header-home {
-  background: url(../img/background-home.jpeg);
+  background: url("../img/background-home.jpeg");
   background-color: #501f0799;
   background-repeat: no-repeat;
   background-size: cover;
@@ -82,10 +82,6 @@ aside {
 
 .nav-bar ul li a:hover {
   color: #84330b;
-}
-
-.logo {
-  /* width: 130px; */
 }
 
 /* header ends */
@@ -186,7 +182,7 @@ aside {
   grid-row-end: 7;
   height: 100%;
   border-radius: 4px;
-  background-image: url(/assets/img/photo-about-hour-1.jpeg);
+  background-image: url("../img/photo-about-hour-1.jpeg");
   background-size: cover;
 }
 
@@ -197,7 +193,7 @@ aside {
   grid-row-end: 11;
   height: 100%;
   border-radius: 4px;
-  background-image: url(/assets/img/photo-about-hour-2.jpeg);
+  background-image: url("../img/photo-about-hour-2.jpeg");
   background-size: cover;
 }
 
@@ -208,7 +204,7 @@ aside {
   grid-row-end: 8;
   height: 100%;
   border-radius: 4px;
-  background-image: url(/assets/img/photo-about-hour-3.jpeg);
+  background-image: url("../img/photo-about-hour-3.jpeg");
   background-size: cover;
 }
 
@@ -219,7 +215,7 @@ aside {
   grid-row-end: 12;
   height: 100%;
   border-radius: 4px;
-  background-image: url(/assets/img/photo-about-hour-4.jpeg);
+  background-image: url("../img/photo-about-hour-4.jpeg");
   background-size: cover;
 }
 
@@ -230,7 +226,7 @@ aside {
   grid-row-end: 15;
   height: 100%;
   border-radius: 4px;
-  background-image: url(/assets/img/photo-about-hour-6.jpeg);
+  background-image: url("../img/photo-about-hour-5.jpeg");
   background-size: cover;
 }
 
@@ -241,7 +237,7 @@ aside {
   grid-row-end: 15;
   height: 100%;
   border-radius: 4px;
-  background-image: url(/assets/img/photo-about-hour-5.jpeg);
+  background-image: url("../img/photo-about-hour-6.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -262,7 +258,7 @@ aside {
 
 /* photos starts */
 .header-photos {
-  background-image: url(../img/background-photos.jpeg);
+  background-image: url("../img/background-photos.jpeg");
   background-color: #501f0799;
   background-repeat: no-repeat;
   background-size: cover;
