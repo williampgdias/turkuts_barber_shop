@@ -394,8 +394,13 @@ aside {
   font-family: "Playfair", sans-serif;
 }
 
-.contact-info p {
+.contact-info p,
+.contact-info a {
   padding-left: 10px;
+}
+
+.contact-info a {
+  color: #fff;
 }
 
 .material-symbols-outlined {
