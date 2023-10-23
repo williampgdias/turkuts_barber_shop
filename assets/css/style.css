@@ -85,7 +85,7 @@ aside {
 }
 
 .logo {
-  width: 130px;
+  /* width: 130px; */
 }
 
 /* header ends */
@@ -367,11 +367,7 @@ aside {
   font-weight: 300;
 }
 
-.contact-options span {
-  font-style: italic;
-}
-
-.contact-options p {
+.contact-options h2 {
   text-align: center;
   padding-bottom: 10px;
   font-size: 2rem;
@@ -528,7 +524,7 @@ footer .container {
   align-items: center;
 }
 
-.social-media h4 {
+.social-media p {
   font-size: 1.8rem;
 }
 

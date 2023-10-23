@@ -25,7 +25,8 @@
         <li><a href="index.html">home</a></li>
         <li><a href="about.html">about</a></li>
         <li>
-          <img class="logo" src="./assets/img/logo.png" alt="Logo of a man with big beard, sunglasses and good hair">
+          <img class="logo" width="130px" height="130px" src="./assets/img/logo.png"
+            alt="Logo of a man with big beard, sunglasses and good hair">
         </li>
         <li><a href="photos.html">photos</a></li>
         <li><a href="contact.html">contact</a></li>
@@ -45,17 +46,17 @@
     <div class="container contact">
       <!-- Contact options starts -->
       <div class="contact-options">
-        <p>At Turkuts we work in two different ways.</p>
+        <h2>At Turkuts we work in two different ways.</h2>
         <ol>
           <li>
             If you don't like to talk -
-            <span>not like us, but we respect different opinions</span> -, you
+            <em>not like us, but we respect different opinions</em> -, you
             can book your hair cut sending us your information.
           </li>
           <li>
-            Or if you like to talk - <span>like us</span> -, you can call us,
+            Or if you like to talk - <em>like us</em> -, you can call us,
             have a little bit of chat -
-            <span>not much, because we need cut hairs</span> - and book your
+            <em>not much, because we need cut hairs</em> - and book your
             hair cut with us...
           </li>
         </ol>
@@ -93,20 +94,25 @@
       <div>
         <form class="form-contact" action="https://formdump.codeinstitute.net/" method="POST">
           <div class="form-info">
-            <input placeholder="Name" class="input-info" type="text" id="name" name="name" required>
+            <input placeholder="Name" class="input-info" type="text" id="name" name="name"
+              aria-label="Insert your name in this input" required aria-required="true">
           </div>
           <div class="form-info">
-            <input placeholder="Email" class="input-info" type="email" id="email" name="email" required>
+            <input placeholder="Email" class="input-info" type="email" id="email" name="email"
+              aria-label="Insert your email in this input" required aria-required="true">
           </div>
           <div class="form-info">
-            <input placeholder="Number" class="input-info" type="number" id="phone-number" name="phone-number" required>
+            <input placeholder="Number" class="input-info" type="number" id="phone-number" name="phone-number"
+              aria-label="Insert your phone number in this input" required aria-required="true">
           </div>
           <div class="form-info">
-            <input class="input-info" type="date" id="date" name="date" required>
+            <input class="input-info" type="date" id="date" name="date"
+              aria-label="Choose the best date for your appointment" required aria-required="true">
           </div>
 
           <div class="form-info">
-            <textarea name="message" id="message" placeholder="How can we help you?" required></textarea>
+            <textarea name="message" id="message" placeholder="How can we help you?"
+              aria-label="tell us how can we help you." required aria-required="true"></textarea>
           </div>
 
           <!-- Button to send the form -->
@@ -132,7 +138,7 @@
 
       <!-- Social Media starts -->
       <div class="social-media">
-        <h4>Follow us:</h4>
+        <p>Follow us:</p>
         <div class="social-media-icon-div">
           <!-- Facebook -->
           <a href="https://www.facebook.com" target="_blank" aria-label="Go to our Facebook page (opens in new tab)">

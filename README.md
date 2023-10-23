@@ -25,4 +25,4 @@ The navigation bar allows users to easily navigate through the site, including a
 ### Footer
 
 ![Footer](/screenshots/footer.png)
-The footer contains contact information, social media links, location to enhance user experience.
+The footer contains contact information, social media links to enhance user experience.
