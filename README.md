@@ -81,6 +81,64 @@ Our footer section serves as a gateway to connect with Turkuts Barber Shop and s
 ### Validator Testing
 
 - **HTML:** No errors were returned when padding through the official W3C validator.
-  - [Result] ()
+  - [Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwilliampgdias.github.io%2Fturkuts_barber_shop%2F)
 - **CSS:** No errors were found when passing through the official (Jigsaw) validator.
   - [Result](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwilliampgdias.github.io%2Fturkuts_barber_shop%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+### Unfixed Bugs
+
+- No known bugs or issues have been left unfixed. Turkuts Barber Shop strives to provide a seamless and error-free experience for its visitors.
+
+### Browsers and Screen Sizes
+
+The website has been tested on various browsers and screen sizes to ensure compatibility. It is designed to provide an optimal experience on different devices, from desktop to mobile.
+
+## Known Issues
+
+No known issues or bugs remain unfixed at this time. The website is regularly maintained to address any potential problems and to ensure that it functions as intended.
+
+Thank you for visiting Turkuts Barber Shop's website. If you have any feedback or encounter any issues, please don't hesitate to reach out to us.
+
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - Accessing the GitHub website at **www.github.com**;
+  - Logging in to GitHub with the necessary login credentials;
+  - Clicking on the '+' icon located in the top right corner of the dashboard and selecting the "New repository" option;
+  - Assigning the repository name "turkuts_barber_shop";
+  - Providing a brief description of the repository, such as "Project of Barber Shop using HTML/CSS";
+  - Creating the repository on GitHub by clicking the "Create repository" button.
+
+The live link can be found here - https://williampgdias.github.io/turkuts_barber_shop/
+
+### Making Changes on the Project
+
+Whenever changes are made to the project, the developer commits these changes with a descriptive message. This helps other developers understand the project's development progress and assists the developer in keeping track of project changes.
+
+The following steps are followed to manage project changes:
+
+1. **Git add .:** Updates made to the project are included using this command. It stages the changes for the next commit.
+
+2. **Git commit -m "Your commit message here":** After staging the changes, this command is used to capture a snapshot of the project's currently staged changes with a descriptive commit message.
+
+3. **Git push:** This command is used to upload the local repository content to a remote repository. It transfers commits from the local repository to a remote repository, allowing for collaboration and version control.
+
+These steps ensure that the project is regularly updated and documented to facilitate seamless collaboration and development.
+
+## Credits
+
+In the development of Turkuts Barber Shop, we acknowledge and provide credit to the following sources for their valuable contributions:
+
+### Content
+
+- Instructions on how to implement form validation on the Contact page were guided by a specific Tutorial on Google.
+- Icons used in the footer were sourced from [Font Awesome](https://fontawesome.com/).
+
+### Media
+
+- The photos utilized on the every page are obtained from [Unsplash - Free Images](https://unsplash.com).
+- Images featured on the Gallery page were gathered from [Pexels](https://www.pexels.com/).
+
+We express our gratitude to these sources for their contributions to our project.
+
+The code for this project can be found in the repository: [Turkuts Barber Shop Repository](https://github.com/williampgdias/turkuts_barber_shop).
