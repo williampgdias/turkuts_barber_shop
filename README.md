@@ -255,7 +255,7 @@ In the development of Turkuts Barber Shop, we acknowledge and provide credit to 
 ### Content
 
 - Instructions on how to implement form validation on the Contact page were guided by a specific Tutorial on Google.
-- Icons used in the footer were sourced from [Font Awesome](https://fontawesome.com/).
+- Icons used through the website were sourced from [Font Awesome](https://fontawesome.com/).
 
 ### Media
 
