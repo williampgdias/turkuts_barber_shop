@@ -142,16 +142,6 @@ aside {
 .nav-toggle-label {
   font-size: 2rem;
 }
-
-/* Animation burger menu */
-@keyframes dropdown {
-  from {
-    display: none;
-  }
-  to {
-    display: block;
-  }
-}
 /* Nav-bar burger ends */
 
 /* header ends */
@@ -465,9 +455,9 @@ aside {
   color: #fff;
 }
 
-.material-symbols-outlined {
-  font-size: 2.4rem !important;
-  font-weight: 100 !important;
+.contact-info i {
+  width: 35px;
+  text-align: center;
 }
 /* Individual Info ends */
 
@@ -600,9 +590,10 @@ footer .container {
   margin-top: 10px;
 }
 
-.social-media-icon {
-  width: 2.5rem;
+.social-media-icon-div i {
+  font-size: 2.5rem;
   margin-right: 15px;
+  color: #fff;
 }
 
 .copyright {
