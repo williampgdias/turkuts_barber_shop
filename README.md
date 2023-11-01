@@ -83,7 +83,17 @@ Our footer section serves as a gateway to connect with Turkuts Barber Shop and s
 - **HTML:** No errors were returned when padding through the official W3C validator.
   - [Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwilliampgdias.github.io%2Fturkuts_barber_shop%2F)
 - **CSS:** No errors were found when passing through the official (Jigsaw) validator.
+
   - [Result](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwilliampgdias.github.io%2Fturkuts_barber_shop%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+- **Access Scan:** The website was checked for accessibility on [Access Scan](https://accessibe.com/accessscan).
+
+  - [Result](https://accessibe.com/accessscan?website=https://williampgdias.github.io/turkuts_barber_shop/&gclid=Cj0KCQjwhfipBhCqARIsAH9msbmH0ZoNUgpQOevkFdqeJXGf1oWnW01JzXCs8vsEIrWnDX4pjfYfU5AaAhpWEALw_wcB)
+
+- Accessibility
+  - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse
+
+![Accessibility](/screenshots/accessibility.png)
 
 ### Unfixed Bugs
 
