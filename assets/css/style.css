@@ -84,6 +84,76 @@ aside {
   color: #84330b;
 }
 
+/* Nav-bar burger starts */
+#nav-bar-burger {
+  padding: 0 1rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+#nav-bar-burger {
+  display: none;
+}
+
+#nav-bar-burger a {
+  color: inherit;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  padding: 5px;
+  margin-top: 5px;
+  display: inline-block;
+  border-bottom: 1px solid #fff;
+  width: 100%;
+  text-align: center;
+}
+
+#menu {
+  font-size: 110%;
+  padding-bottom: 20px;
+}
+
+/* Navbar styles with dropdown toggle */
+#nav-bar-burger nav {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  padding: 0 2rem;
+  display: none;
+  top: 100%;
+
+  /* animation */
+  animation-name: dropdown;
+  animation-duration: 400ms;
+
+  transition: display ease 900ms;
+}
+
+#nav-toggle:checked ~ nav {
+  display: block;
+}
+
+#nav-toggle {
+  display: none;
+}
+
+.nav-toggle-label {
+  font-size: 2rem;
+}
+
+/* Animation burger menu */
+@keyframes dropdown {
+  from {
+    display: none;
+  }
+  to {
+    display: block;
+  }
+}
+/* Nav-bar burger ends */
+
 /* header ends */
 
 /* about starts */

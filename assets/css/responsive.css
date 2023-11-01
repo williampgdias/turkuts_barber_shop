@@ -249,11 +249,6 @@
     padding: 3px 10px;
     font-size: 1.2rem;
   }
-  .nav-bar ul li:nth-child(3) {
-    order: -1;
-    position: relative;
-    right: 30px;
-  }
 
   /* About Us page */
   .text-content h1 {
@@ -303,6 +298,16 @@
   .sub-title {
     font-size: 3.8rem;
   }
+
+  /* Home page */
+  #nav-bar-burger {
+    display: flex;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+
   .nav-bar ul li a {
     margin: 4px;
     padding: 3px 6px;
