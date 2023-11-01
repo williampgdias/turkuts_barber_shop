@@ -4,7 +4,7 @@ Welcome to Turkuts Barber Shop, your premier destination for top-quality groomin
 
 ![Am I Responsive](/screenshots/am-i-responsive.png)
 
-## Features
+## Current & New User Goals
 
 - **Contact Information:** Easily find our contact details, location, and business hours, making it convenient for you to get in touch;
 
@@ -81,7 +81,13 @@ Our footer section serves as a gateway to connect with Turkuts Barber Shop and s
 ### Validator Testing
 
 - **HTML:** No errors were returned when padding through the official W3C validator.
-  - [Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwilliampgdias.github.io%2Fturkuts_barber_shop%2F)
+
+  - Results:
+    - [Home page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwilliampgdias.github.io%2Fturkuts_barber_shop%2F#textarea)
+    - [About page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwilliampgdias.github.io%2Fturkuts_barber_shop%2F#textarea)
+    - [Photos page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwilliampgdias.github.io%2Fturkuts_barber_shop%2F#textarea)
+    - [Contact page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwilliampgdias.github.io%2Fturkuts_barber_shop%2F#textarea)
+
 - **CSS:** No errors were found when passing through the official (Jigsaw) validator.
 
   - [Result](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwilliampgdias.github.io%2Fturkuts_barber_shop%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
@@ -89,9 +95,11 @@ Our footer section serves as a gateway to connect with Turkuts Barber Shop and s
 - **Access Scan:** The website was checked for accessibility on [Access Scan](https://accessibe.com/accessscan).
 
   - [Result](https://accessibe.com/accessscan?website=https://williampgdias.github.io/turkuts_barber_shop/&gclid=Cj0KCQjwhfipBhCqARIsAH9msbmH0ZoNUgpQOevkFdqeJXGf1oWnW01JzXCs8vsEIrWnDX4pjfYfU5AaAhpWEALw_wcB)
+  - All the pages was checked by the Access Scan.
 
 - Accessibility
-  - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse
+  - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse;
+  - Every page was checked by Lighthouse
 
 ![Accessibility](/screenshots/accessibility.png)
 
@@ -111,15 +119,44 @@ Thank you for visiting Turkuts Barber Shop's website. If you have any feedback o
 
 ## Deployment
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows:
-  - Accessing the GitHub website at **www.github.com**;
-  - Logging in to GitHub with the necessary login credentials;
-  - Clicking on the '+' icon located in the top right corner of the dashboard and selecting the "New repository" option;
-  - Assigning the repository name "turkuts_barber_shop";
-  - Providing a brief description of the repository, such as "Project of Barber Shop using HTML/CSS";
-  - Creating the repository on GitHub by clicking the "Create repository" button.
+### Step 1: Create a Repository
 
-The live link can be found here - https://williampgdias.github.io/turkuts_barber_shop/
+1. **Login to GitHub:** Visit [GitHub](https://github.com) and log in to the account.
+2. **Create a New Repository:**
+   - Click on the '+' icon in the top right corner of your GitHub profile.
+   - Select "New repository."
+3. **Repository Configuration:**
+   - Name the repository.
+   - Ensure the repository is public.
+   - Click the "Create repository" button to finalize.
+
+### Step 2: Upload the Files
+
+4. **Upload The Website Files:**
+   - On the newly created repository page, add your website files (HTML, CSS, images, etc.) into the repository by clicking in Upload or Drag the folder into the page.
+
+### Step 3: Enable GitHub Pages
+
+5. **Access Repository Settings:**
+   - Inside the repository, go to the "Settings" tab.
+6. **GitHub Pages Section:**
+   - Scroll down to the GitHub Pages section.
+   - Under "Source," select the branch containing your website files.
+   - Save the changes.
+7. **Confirmation:**
+   - GitHub will display the URL where your site is published.
+8. **Wait for Deployment:**
+   - GitHub Pages might take a few minutes to deploy the site. Once deployed, the website will be live at the provided URL.
+
+### Step 4: Access Your Published Site
+
+9. **Visit The Published Site:**
+   - Access the website using the provided URL.
+   - Ensure the content displays correctly.
+
+This process will enable to publish and maintain the website using GitHub Pages.
+<br>
+The live link can be found here: https://williampgdias.github.io/turkuts_barber_shop/
 
 ### Making Changes on the Project
 
